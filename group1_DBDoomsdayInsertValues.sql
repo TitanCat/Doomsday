@@ -428,9 +428,6 @@ GO
 INSERT [dbo].[Allies] ([AllyID], [LocationID], [AllyFirstName], [AllyLastName], [TrustLevel]) VALUES (N'A032', N'L007', N'Kennedy', N'West', N'Low')
 GO
 
-USE [DoomsdayPrepDB]
-GO
-
 INSERT [dbo].[Adversaries] ([AdversaryID], [LocationID], [ThreatName], [ThreatLevel], [LastEncountered]) VALUES (N'V001', N'L001', N'Cat 8 Hurricane', N'High', CAST(N'1930-03-16T00:00:00.000' AS DateTime))
 GO
 
